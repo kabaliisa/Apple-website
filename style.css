@@ -1,0 +1,262 @@
+.navbar-nav {
+  text-align: center;
+  /* width: 100%; */
+}
+@font-face {
+  font-family: "HelveticaNue";
+  src: url("bootstrap/fonts/HelveticaNeueLight.ttf");
+}
+.navbar-nav li {
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-left: 20px;
+  font-family: "HelveticaNue";
+  /* float: none;
+  display: inline-block; */
+}
+
+.navbar-header {
+  padding-left: 10%;
+}
+.first {
+  padding-top: 6%;
+  min-height: 300px;
+  background-color: black;
+  margin-bottom: 15px;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.first p {
+  color: white;
+  font-family: "HelveticaNue";
+  font-size: 20px;
+  font-weight: 200;
+}
+.first h1 {
+  color: white;
+  font-family: "HelveticaNue";
+  font-size: 30px;
+  font-weight: bold;
+}
+.second {
+  padding-top: 6%;
+  min-height: 300px;
+  background-color: black;
+  margin-bottom: 15px;
+}
+.second p {
+  color: white;
+  font-family: "HelveticaNue";
+  font-size: 20px;
+}
+.second h1 {
+  color: white;
+  font-family: "HelveticaNue";
+  font-size: 30px;
+  font-weight: bold;
+}
+body {
+  background-color: #3a3a3a;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.third {
+  padding-top: 6%;
+  min-height: 600px;
+  background-color: black;
+  /* margin-bottom: 15px; */
+}
+.third p {
+  color: white;
+  font-family: "HelveticaNue";
+  font-size: 20px;
+}
+.third h1 {
+  color: white;
+  font-family: "HelveticaNue";
+  font-size: 30px;
+  font-weight: bold;
+}
+.fourth {
+  padding-top: 5%;
+  background-color: white;
+  min-height: 500px;
+}
+.fourth h1 {
+  color: black;
+  font-family: "HelveticaNue";
+  font-weight: bold;
+  font-size: 50px;
+}
+.fourth p {
+  color: black;
+  font-weight: bold;
+  font-family: "HelveticaNue";
+  font-size: 20px;
+}
+.fourth img {
+  width: 500px;
+  margin: auto;
+}
+.fifth {
+  background-color: white;
+  min-height: 500px;
+}
+.fifth h1 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "HelveticaNue";
+}
+.fifth p {
+  font-weight: bold;
+  color: black;
+  font-family: "HelveticaNue";
+  font-size: 20px;
+}
+.fifth img {
+  height: 400px;
+  width: 600px;
+  margin: auto;
+}
+.seventh {
+  background-color: white;
+  min-height: 500px;
+}
+.seventh img {
+  height: 400px;
+  width: 350px;
+  margin: auto;
+}
+.seventh h1 {
+  color: black;
+  font-weight: bold;
+  font-family: "HelveticaNue";
+}
+.seventh p {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "HelveticaNue";
+}
+
+.eighth {
+  background-color: white;
+  min-height: 500px;
+}
+.eighth img {
+  height: 350px;
+  width: 400px;
+  margin: auto;
+}
+.eighth #img1 {
+  height: 350px;
+  width: 250px;
+  margin: auto;
+}
+.eighth h1 {
+  color: black;
+  font-weight: bold;
+  font-family: "HelveticaNue";
+}
+.eighth p {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "HelveticaNue";
+}
+.footer {
+  background-color: #e2e2e2;
+  min-height: 600px;
+}
+.footer p {
+  font-family: "HelveticaNue";
+  color: #848484;
+  font-size: 12px;
+}
+.footer .customHr {
+  width: 95%;
+  font-size: 1px;
+  color: rgba(44, 44, 44, 0.432);
+  line-height: 1px;
+
+  background-color: grey;
+  margin-top: -6px;
+  margin-bottom: 10px;
+}
+.footer #bold {
+  font-weight: bold;
+  color: black;
+}
+.footer .paragraph {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #cecece;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #5e5e5e;
+}
+.navbar-inverse .navbar-brand {
+  color: #cecece;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #5e5e5e;
+}
+.button1 {
+  background-color: transparent;
+  border-color: white;
+  box-shadow: none;
+}
+.btn2 {
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .navbar-nav li {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    font-family: "HelveticaNue";
+    /* float: none;
+    display: inline-block; */
+  }
+  .navbar-header {
+    padding-left: 5%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1270px) {
+  .navbar-nav li {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    font-family: "HelveticaNue";
+    /* float: none;
+    display: inline-block; */
+  }
+  .navbar-header {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 1280px) {
+  .navbar-nav {
+    text-align: center;
+    /* width: 100%; */
+  }
+  .navbar-nav li {
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 25px;
+    font-family: "HelveticaNue";
+    /* float: none;
+    display: inline-block; */
+  }
+  .navbar-header {
+    /* margin-left: 35%; */
+    padding-left: 8%;
+  }
+}
